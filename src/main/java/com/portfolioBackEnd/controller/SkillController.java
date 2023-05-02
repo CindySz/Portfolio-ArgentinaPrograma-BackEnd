@@ -13,6 +13,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/skill")
+@CrossOrigin
 public class SkillController {
 
     @Autowired

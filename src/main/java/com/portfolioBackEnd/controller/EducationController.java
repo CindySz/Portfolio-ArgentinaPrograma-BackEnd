@@ -13,6 +13,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/education")
+@CrossOrigin
 public class EducationController {
 
 
